@@ -20,7 +20,7 @@ console.log(Games); //output => Sports {firstSport: 'Cricket', secondSport: 'Ho
 // 3){} linked to prototype .
 // 4)Function automatically return the object {} but it will not be empty.
 
-// We also get to see above that when we console.log(this)  we get the empty object so it is proved that "new" keyword gives the empty object.As "this" is an empty object so we have given the two properties(firstSport,secondSport) with the values of firstSport and secondSport.The reason of taking same property name just like the paramter is coz this is the convention and recommeded to use.Although we can use any different names too but that is not recommended .
+// We also get to see above that, when we console.log(this)  we get the empty object so it is proved that "new" keyword gives the empty object.As "this" is an empty object so we have given the two properties(firstSport,secondSport) with the values of firstSport and secondSport.The reason of taking same property name just like the paramter is coz this is the convention and recommeded to use.Although we can use any different names too but that is not recommended .
 
 // We got the object with the name of "Sports" which has two values "Cricket" and "Hockey". So with the help of constructor function we were able to produce an object and we can produce as many objects as we want .
 
